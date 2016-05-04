@@ -1,0 +1,177 @@
+body{
+	background-color: #DCDCDC;
+	font-family: Arial;
+	color: white;
+	text-align: center;
+}
+p{
+	text-align: justify;
+}
+#cabecalho{
+	background-image: url("http://st.depositphotos.com/1032463/1373/i/950/depositphotos_13732950-Background-of-old-vintage-newspapers.jpg");
+	margin: -8px;
+	height: 200px;
+}
+#tudo{
+	margin: 0 auto;
+	text-align: left;
+}
+button{
+	padding: 2px;
+	border-radius: 3px;
+}
+#entrar{
+	position: relative;
+	top: 5px;
+	padding: 3px;
+	border: none;
+}
+.itemlista{
+	position: relative;
+	display: inline-block;
+	padding: 5px 15px 4px 15px;
+	bottom: 16px;
+}
+.itemlista:hover{
+	transition: 2s;
+	background-color: rgb(0,128,128);
+}
+nav{
+	position: absolute;
+	left: -5px;
+	top: 160px;
+	background: rgb(32,178,170);
+	width: 120%;
+	height: 40px;
+	border-bottom: solid 2.5px rgb(0,128,128);
+}
+a.itemMenu:link{
+	text-decoration: none;
+	color: white;
+	font-size: 20pt;
+}
+fieldset{
+	position: relative;
+	background-color: rgba(0,0,0,0.7);
+	border: 0px;
+	border-radius: 4px;
+	width: 170px;
+	height: 125px;
+	left: 460px;
+	bottom: 77px;
+}
+.text{
+	border-radius: 4px;	
+}
+#logotopo{
+	position: relative;
+	top: 40px;
+	left: 110px;
+}
+#pesquisa{
+
+	position: relative;
+	bottom: 130px;
+	left: 700px;
+}
+.font-pesquisa{
+	font-size: 20pt;
+	border-radius: 4px;
+}
+#publicacoes{
+	left: 100px;
+	width: 840px;
+	background-color: white;
+	color: black;
+	margin-left: 100px;
+	box-shadow: 1px 1px 5px black;
+}
+aside{
+	position: relative;
+	background-color: white;
+	color: black;
+	width: 200px;
+	padding: 10px;
+	left: 970px;
+	bottom: 1150px;
+	box-shadow: 0px 0px 5px black;
+}
+header#aside{
+	position: relative;
+	background-color: rgb(0,128,128);
+	color: white;
+	bottom: 30px;
+	left: -10px;
+	width: 220px;
+}
+#carrosel{
+	margin-top: 30px;
+}
+.imgCarro{
+	margin-top: 10px;
+	margin-left: 100px;
+	width: 650px;
+	height: 400px;
+}
+#img2{
+	display: none;
+}
+#img3{
+	display: none;
+}
+#imgJornal{
+	position: relative;
+	bottom: 30px;
+	width: 200px;
+}
+footer{
+	position: absolute;
+	background-color: red;
+	width: 100%;
+	text-align: center;
+}
+/* Configurações das sections esporte, policia... */
+#noticiasTOP{
+	margin-left: -15px;
+}
+.itemNT{
+	position: relative;
+	display: inline-block;
+}
+#esportes{
+	width: 250px;
+}
+#esportes header{
+	background-color: green;
+	padding: 3px 0px 3px 0px;
+	font-size: 16pt;
+	color: #FFF;
+}
+#geral{
+	width: 250px;
+}
+#geral header{
+	background-color: blue;
+	padding: 3px 0px 3px 0px;
+	font-size: 16pt;
+	color: #FFF;
+}
+#policia{
+	width: 250px;
+}
+#policia header{
+	background-color: red;
+	padding: 3px 0px 3px 0px;
+	font-size: 16pt;
+	color: #FFF;
+}
+article.noticias{
+	width: 170px;
+	border-top: solid 1px rgba(0,0,0,0.5);
+	margin-left: 5px;
+	margin-top: 8px;
+}
+article.noticias header{
+	font-weight: bold;
+}
+
